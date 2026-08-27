@@ -1,0 +1,5 @@
+Design a class Library that manages a list of books. Add methods to add_book(), remove_book(), and list_books().
+
+
+
+Design a class User with a private attribute __password. Add a method check_password() and update_password().

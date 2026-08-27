@@ -1,0 +1,61 @@
+Task 1 
+Question:
+
+Create class Mobile
+
+Attributes:
+
+brand
+
+price
+
+Method:
+
+call()
+
+details()
+
+--------------------------------------------------------------------------------------------------------------------
+
+ Task 2 
+
+Attributes:
+
+brand
+
+color
+
+price
+
+Methods:
+
+start()
+
+stop()
+
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+Create a class Employee with attributes name, id, and salary. Add a method to display the employee details.
+
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+Design a class Laptop with attributes like brand, model, and price. Add a method apply_discount() that reduces the price by 10%.
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+Build a class ShoppingCart that stores items in a list. Add methods add_item(), remove_item(), and get_total().
+
+
+
+
+
+
+

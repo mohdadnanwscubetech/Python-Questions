@@ -1,0 +1,38 @@
+Day 2 -----------------------
+
+value_counts()   , unique() ,  count() , std() , info() , head() , Tail() ,  t[0:45] , describe() , t.age.isna   , titanic.ageplufare = t.age + t.fare , del t.agegplusfare  
+
+data filtering 
+
+t[t.age < 20]  , t.info()
+
+
+deleting survived columns --------------
+
+1 .   del t["survived"]  #permanent
+2. t = t.drop(column=["survived"]  , inplace = True)
+
+
+createting a new column in data ------
+
+t['ageplusflare"] = t.age += t.flare
+
+
+
+apply with function ----------------
+
+def classify_age_group(age) :
+	if age < = 18 :
+	return "child"
+	elif age <= 50 :
+	return "Adult"
+	else :
+		return old
+
+
+ t["agegroup"] t.age.apply(classify_age_group)
+
+
+filtering---------------------------------------
+t[t.agegroup == "Adult"]
+

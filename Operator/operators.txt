@@ -1,0 +1,74 @@
+ Arithmetic Operator Questions
+
+A vegetable shop sold 4 kg of onions and 3 kg of potatoes. Onion is ₹40/kg and potato is ₹30/kg. Calculate the total bill.
+
+A pizza costs ₹250. If a customer buys 3 pizzas, calculate the total amount.
+
+A bus covers 240 km in 4 hours. Find the average speed using division.
+
+A water tank has 350 liters and is filled evenly over 7 hours. How many liters per hour were added?
+
+A student got 85 marks out of 300. What is the percentage?
+
+
+
+
+ Assignment Operator Questions
+
+The price of petrol per litre is ₹100. Increase it by ₹10 and store the result. What is the final price?
+
+A user has 500 reward points. They earned 200 more points. Update the total using +=.
+
+A car was moving at 90 km/h. Reduce its speed by 20 using -=.
+
+Set an initial counter to 1. Multiply it by 5 using *= and print the result.
+
+A company has 100 shares. Each share doubles in value. Update using *=.
+
+
+
+
+ Comparison Operator Questions
+
+A student got 45 marks. Check if he passed the exam (passing marks is 40).
+
+A mobile is priced at ₹20,000. Check if it is costlier than ₹25,000.
+
+Compare two bank account balances: acc1 = 10000, acc2 = 10000. Are they equal?
+
+You are 17 years old. Can you vote (if age required is 18)?
+
+If a person can swim or not, make code for this (answer will be in true or false format).
+
+
+
+ Logical Operator Questions
+
+You have a gym membership and are 18+. Check if you can access the premium zone.
+
+Your age is 19, and your height is 5.6ft. You can join the army if you're over 18 or taller than 6ft. Check the eligibility.
+
+You are not a registered user. Use not to check if not is_registered gives True.
+
+has_license = True, has_helmet = False. Can you ride the bike (only if both are True)?
+
+A person has paid fees or got a scholarship. Check if they can attend the class.
+
+
+
+
+
+ Membership Operator Questions 
+
+Is the letter "a" present in "watermelon"?
+
+Check if "z" is not in "pineapple".
+
+sentence = "The quick brown fox". Is "quick" a part of the sentence?
+
+
+
+
+
+
+

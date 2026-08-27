@@ -1,0 +1,44 @@
+1.) Write a class Movie with title, duration, and genre. Add a method to check if the movie is longer than 2 hours.
+
+
+2.) Build a class Restaurant that takes name, cuisine_type, and has a method describe_restaurant(). Add a method open_restaurant() that prints it is open.
+
+
+3.) Build a class Smartphone with methods call(), play_music(), and install_app(). Use constructor to initialize brand and model.
+
+
+
+
+4.) Simulate an online order system with classes Product, Customer, and Order. Add functionality to place an order and print a receipt.
+
+
+In this project, students need to create three classes:
+
+Product → stores product name and price
+Customer → stores customer details
+Order → manages customer orders and cart items
+
+The program should allow:
+
+Adding products to the cart
+Storing products in a list
+Calculating the total bill
+Displaying a final receipt with product names and prices
+
+This task helps students understand:
+
+Classes and Objects
+Constructors (__init__)
+Lists in classes
+Methods and loops
+Object interaction in Python
+
+
+
+
+
+
+
+
+
+
