@@ -1,0 +1,211 @@
+﻿order_id,customer_id,order_date,sales_channel,order_status,shipping_type,payment_method
+O0001,C050,2025-06-06,Website,Shipped,Express,Net Banking
+O0002,C043,2026-07-10,Website,Delivered,Standard,Net Banking
+O0003,C050,2026-08-22,Website,Returned,,Net Banking
+O0004,C062,2025-01-07,Mobile App,Returned,Express,Net Banking
+O0005,C069,2026-07-14,Website,Shipped,Express,Card
+O0006,C035,2026-03-23,Mobile App,Delivered,Express,Net Banking
+O0007,C022,2026-04-24,Store,Cancelled,Same Day,COD
+O0008,C051,2026-08-30,Website,Delivered,Standard,Net Banking
+O0009,C018,2026-04-18,Mobile App,Delivered,Express,UPI
+O0010,C028,2026-04-11,Mobile App,Delivered,Express,Net Banking
+O0011,C033,2025-03-25,Store,Delivered,Same Day,COD
+O0012,C045,2025-08-18,Store,Delivered,Standard,COD
+O0013,C032,2025-07-24,Store,Cancelled,Standard,Card
+O0014,C017,2026-04-30,Store,Delivered,Standard,Net Banking
+O0015,C033,2026-01-13,Store,Delivered,Same Day,COD
+O0016,C021,2025-11-15,Website,Delivered,Express,Net Banking
+O0017,C051,2025-07-23,Store,Delivered,Same Day,Card
+O0018,C014,2025-11-05,Store,Cancelled,Standard,COD
+O0019,C045,2026-06-30,Mobile App,Delivered,Standard,UPI
+O0020,C002,2026-03-07,Website,Cancelled,Express,UPI
+O0021,C059,2025-06-06,Store,Delivered,Same Day,UPI
+O0022,C079,2026-07-06,Mobile App,Shipped,Express,UPI
+O0023,C042,2025-09-09,Website,Cancelled,Express,Net Banking
+O0024,C032,2026-04-21,Store,Delivered,Express,UPI
+O0025,C004,2026-05-22,Website,Cancelled,Express,Card
+O0026,C046,2025-09-22,Store,Delivered,Same Day,UPI
+O0027,C072,2025-01-11,Website,Delivered,Standard,Card
+O0028,C053,2026-05-16,Website,Delivered,Same Day,Net Banking
+O0029,C063,2026-04-04,Website,Shipped,Express,Card
+O0030,C052,2025-09-07,Store,Delivered,Express,Net Banking
+O0031,C071,2026-06-28,Store,Delivered,,UPI
+O0032,C046,2026-04-10,Mobile App,Delivered,Standard,COD
+O0033,C025,2025-11-20,Store,Delivered,Same Day,Card
+O0034,C025,2025-08-10,Mobile App,Shipped,Same Day,UPI
+O0035,C013,2025-07-18,Mobile App,Delivered,Standard,UPI
+O0036,C002,2026-07-01,Website,Delivered,Standard,UPI
+O0037,C017,2026-10-16,Mobile App,Cancelled,Standard,COD
+O0038,C074,2025-10-19,Mobile App,Delivered,Express,Card
+O0039,C007,2025-09-16,Mobile App,Returned,Standard,COD
+O0040,C052,2026-05-19,Store,Delivered,,COD
+O0041,C020,2025-06-02,Mobile App,Cancelled,Standard,Card
+O0042,C016,2026-07-26,Store,Shipped,Same Day,Card
+O0043,C067,2026-01-25,Mobile App,Delivered,Express,Net Banking
+O0044,C040,2026-08-06,Store,Delivered,Same Day,COD
+O0045,C027,2026-10-03,Store,Delivered,Standard,Card
+O0046,C031,2025-06-27,Website,Delivered,Standard,Net Banking
+O0047,C058,2026-09-01,Website,Delivered,Standard,UPI
+O0048,C037,2026-04-10,Website,Delivered,Express,Card
+O0049,C055,2025-04-28,Store,Delivered,Standard,UPI
+O0050,C019,2025-03-15,Mobile App,Delivered,Same Day,UPI
+O0051,C057,2025-05-08,Mobile App,Delivered,Same Day,Net Banking
+O0052,C035,2026-05-28,Mobile App,Delivered,,COD
+O0053,C056,2025-11-27,Website,Delivered,Standard,Card
+O0054,C074,2026-08-25,Store,Returned,Express,COD
+O0055,C023,2026-04-27,Mobile App,Delivered,Express,Card
+O0056,C075,2026-03-23,Mobile App,Delivered,Standard,Net Banking
+O0057,C045,2026-02-23,Store,Delivered,Standard,Card
+O0058,C043,2026-02-26,Mobile App,Shipped,Same Day,Net Banking
+O0059,C071,2025-02-07,Mobile App,Delivered,Express,UPI
+O0060,C015,2026-02-18,Website,Cancelled,Same Day,Net Banking
+O0061,C053,2025-02-25,Mobile App,Delivered,Same Day,Net Banking
+O0062,C057,2025-02-22,Store,Delivered,Standard,UPI
+O0063,C057,2026-05-12,Store,Delivered,Same Day,Card
+O0064,C021,2025-11-15,Store,Delivered,Express,COD
+O0065,C029,2025-04-27,Website,Delivered,Same Day,Card
+O0066,C064,2025-10-26,Mobile App,Delivered,Express,Net Banking
+O0067,C061,2025-09-07,Website,Delivered,Express,Card
+O0068,C077,2026-06-05,Website,Shipped,Standard,UPI
+O0069,C054,2025-12-15,Store,Returned,,COD
+O0070,C037,2025-11-02,Store,Cancelled,,Net Banking
+O0071,C020,2026-04-03,Mobile App,Delivered,Express,Net Banking
+O0072,C059,2025-11-26,Store,Cancelled,Standard,Net Banking
+O0073,C030,2026-02-25,Store,Delivered,Express,Net Banking
+O0074,C050,2025-06-05,Website,Delivered,Standard,UPI
+O0075,C013,2026-03-27,Mobile App,Delivered,Standard,Card
+O0076,C053,2025-06-08,Mobile App,Delivered,Express,Net Banking
+O0077,C011,2025-12-03,Store,Cancelled,Express,UPI
+O0078,C063,2026-07-09,Website,Delivered,Standard,UPI
+O0079,C030,2025-04-03,Website,Delivered,Same Day,COD
+O0080,C057,2025-06-20,Website,Shipped,Standard,UPI
+O0081,C008,2025-10-28,Mobile App,Delivered,Standard,Card
+O0082,C068,2026-02-26,Website,Delivered,Standard,Card
+O0083,C011,2026-09-17,Store,Cancelled,Same Day,Card
+O0084,C064,2026-08-21,Mobile App,Delivered,Same Day,UPI
+O0085,C059,2025-09-19,Mobile App,Delivered,Express,Card
+O0086,C010,2026-03-29,Store,Returned,Express,Net Banking
+O0087,C033,2026-04-13,Website,Cancelled,Express,Net Banking
+O0088,C014,2025-08-31,Mobile App,Delivered,Same Day,UPI
+O0089,C038,2025-01-23,Store,Returned,Express,UPI
+O0090,C002,2026-08-03,Store,Cancelled,Standard,Net Banking
+O0091,C037,2025-08-24,Mobile App,Delivered,Standard,Card
+O0092,C080,2025-09-14,Store,Delivered,Same Day,Card
+O0093,C013,2026-10-05,Mobile App,Delivered,Express,COD
+O0094,C075,2026-01-09,Website,Shipped,Express,UPI
+O0095,C054,2025-06-29,Store,Delivered,Express,UPI
+O0096,C022,2025-09-21,Mobile App,Cancelled,Express,UPI
+O0097,C015,2026-04-25,Website,Returned,Standard,Net Banking
+O0098,C072,2026-01-10,Mobile App,Delivered,Standard,UPI
+O0099,C069,2025-05-07,Store,Delivered,Same Day,UPI
+O0100,C075,2026-01-26,Mobile App,Cancelled,Standard,Card
+O0101,C061,2025-01-26,Store,Delivered,Express,Card
+O0102,C009,2026-10-13,Store,Cancelled,Express,Net Banking
+O0103,C015,2025-05-24,Website,Delivered,Express,Net Banking
+O0104,C015,2025-04-10,Store,Delivered,Standard,Net Banking
+O0105,C059,2026-01-15,Store,Delivered,Same Day,Net Banking
+O0106,C076,2025-06-08,Store,Cancelled,Standard,Net Banking
+O0107,C079,2026-02-22,Mobile App,Returned,Standard,UPI
+O0108,C028,2026-03-31,Website,Delivered,Express,COD
+O0109,C048,2026-07-12,Store,Cancelled,Express,COD
+O0110,C051,2025-10-10,Website,Delivered,Express,COD
+O0111,C028,2026-10-20,Website,Delivered,Standard,UPI
+O0112,C032,2025-05-09,Website,Shipped,Standard,Card
+O0113,C076,2025-08-10,Website,Cancelled,Express,Card
+O0114,C077,2025-01-03,Website,Delivered,Standard,UPI
+O0115,C023,2025-04-23,Website,Delivered,Standard,COD
+O0116,C046,2025-09-01,Website,Delivered,Standard,UPI
+O0117,C007,2025-05-10,Store,Shipped,Standard,COD
+O0118,C061,2026-04-05,Store,Shipped,Same Day,COD
+O0119,C058,2026-05-31,Store,Delivered,Standard,UPI
+O0120,C059,2026-10-21,Website,Returned,Express,Net Banking
+O0121,C055,2025-04-21,Mobile App,Delivered,Standard,COD
+O0122,C042,2026-09-15,Website,Delivered,Express,UPI
+O0123,C049,2026-09-04,Mobile App,Delivered,Same Day,Net Banking
+O0124,C013,2025-04-28,Store,Cancelled,,Card
+O0125,C056,2026-04-08,Mobile App,Cancelled,Express,Net Banking
+O0126,C052,2026-03-02,Mobile App,Shipped,Express,UPI
+O0127,C033,2026-01-19,Store,Returned,Express,COD
+O0128,C012,2025-03-29,Website,Delivered,Same Day,UPI
+O0129,C017,2026-07-24,Store,Delivered,Same Day,UPI
+O0130,C016,2026-02-25,Store,Delivered,Express,COD
+O0131,C037,2026-09-07,Website,Delivered,Same Day,Card
+O0132,C020,2026-05-09,Website,Delivered,Express,UPI
+O0133,C015,2025-10-13,Mobile App,Delivered,Same Day,COD
+O0134,C078,2025-10-01,Mobile App,Delivered,Same Day,UPI
+O0135,C044,2025-12-26,Website,Delivered,Same Day,Net Banking
+O0136,C009,2025-05-26,Website,Shipped,Standard,Card
+O0137,C049,2026-03-06,Website,Delivered,Express,UPI
+O0138,C042,2026-08-05,Website,Delivered,Standard,Card
+O0139,C080,2025-02-20,Mobile App,Delivered,Express,Net Banking
+O0140,C063,2026-09-14,Mobile App,Delivered,Standard,COD
+O0141,C045,2026-03-17,Store,Delivered,Same Day,Net Banking
+O0142,C068,2025-11-12,Mobile App,Delivered,Same Day,COD
+O0143,C001,2025-07-29,Website,Delivered,Standard,UPI
+O0144,C038,2025-12-02,Mobile App,Delivered,Same Day,Net Banking
+O0145,C023,2025-05-13,Store,Delivered,Standard,UPI
+O0146,C010,2026-02-11,Website,Cancelled,Express,COD
+O0147,C059,2025-03-21,Store,Cancelled,Express,Net Banking
+O0148,C054,2025-10-24,Website,Delivered,Express,Card
+O0149,C080,2026-04-17,Mobile App,Cancelled,Standard,Net Banking
+O0150,C014,2025-09-07,Mobile App,Delivered,Same Day,COD
+O0151,C051,2025-11-14,Website,Shipped,Express,Card
+O0152,C010,2026-06-07,Store,Delivered,Same Day,Card
+O0153,C045,2025-12-26,Store,Shipped,Standard,Card
+O0154,C014,2025-05-30,Website,Delivered,Same Day,Card
+O0155,C010,2025-07-01,Store,Returned,Express,Net Banking
+O0156,C073,2026-08-17,Store,Delivered,Same Day,UPI
+O0157,C041,2025-06-04,Mobile App,Delivered,Express,UPI
+O0158,C036,2026-08-29,Store,Delivered,Standard,UPI
+O0159,C060,2026-04-08,Mobile App,Delivered,Express,COD
+O0160,C012,2026-09-22,Mobile App,Delivered,Express,COD
+O0161,C058,2026-08-09,Mobile App,Delivered,Same Day,Net Banking
+O0162,C065,2025-06-04,Mobile App,Returned,Standard,UPI
+O0163,C011,2026-06-01,Website,Delivered,Standard,Net Banking
+O0164,C057,2026-06-21,Website,Delivered,Express,UPI
+O0165,C037,2026-02-01,Mobile App,Delivered,Same Day,COD
+O0166,C043,2025-03-09,Store,Delivered,Same Day,Net Banking
+O0167,C037,2025-09-16,Store,Shipped,Same Day,Card
+O0168,C043,2025-03-25,Website,Delivered,Express,UPI
+O0169,C051,2025-05-13,Website,Delivered,Express,Net Banking
+O0170,C043,2025-05-11,Store,Delivered,Same Day,COD
+O0171,C055,2026-06-05,Mobile App,Delivered,Express,Card
+O0172,C028,2025-12-16,Mobile App,Returned,Standard,Card
+O0173,C018,2025-06-08,Website,Delivered,Same Day,COD
+O0174,C044,2026-09-25,Mobile App,Delivered,Standard,Card
+O0175,C024,2026-10-02,Website,Shipped,Same Day,Net Banking
+O0176,C006,2026-02-25,Store,Delivered,Standard,Net Banking
+O0177,C079,2025-10-19,Mobile App,Shipped,Standard,Card
+O0178,C040,2026-04-26,Website,Cancelled,Express,Net Banking
+O0179,C060,2025-10-16,Store,Shipped,Same Day,Net Banking
+O0180,C021,2025-07-24,Website,Shipped,Express,COD
+O0181,C062,2026-01-16,Website,Delivered,Same Day,COD
+O0182,C037,2025-03-27,Mobile App,Shipped,Express,Card
+O0183,C056,2025-04-04,Website,Returned,Express,UPI
+O0184,C004,2026-03-01,Store,Delivered,Express,Card
+O0185,C050,2025-03-25,Website,Delivered,Express,COD
+O0186,C043,2025-05-30,Mobile App,Delivered,Express,Card
+O0187,C061,2026-04-05,Website,Delivered,Standard,UPI
+O0188,C028,2025-06-03,Store,Delivered,Same Day,Net Banking
+O0189,C015,2025-10-23,Website,Delivered,Standard,Card
+O0190,C054,2026-10-17,Mobile App,Shipped,Standard,COD
+O0191,C064,2026-09-04,Store,Delivered,Same Day,Card
+O0192,C019,2025-10-26,Store,Delivered,Express,Card
+O0193,C074,2026-03-03,Store,Delivered,Standard,UPI
+O0194,C009,2026-06-23,Store,Delivered,Same Day,COD
+O0195,C050,2026-04-27,Mobile App,Delivered,Express,UPI
+O0196,C003,2026-01-01,Mobile App,Shipped,Standard,COD
+O0197,C075,2025-12-07,Mobile App,Delivered,Same Day,UPI
+O0198,C023,2026-04-21,Mobile App,Returned,Same Day,Card
+O0199,C018,2025-03-06,Mobile App,Shipped,Standard,UPI
+O0200,C026,2025-02-14,Website,Shipped,Express,UPI
+O0201,C066,2026-02-12,Store,Returned,Express,UPI
+O0202,C005,2025-07-15,Website,Delivered,Same Day,UPI
+O0203,C035,2025-05-08,Mobile App,Shipped,,Net Banking
+O0204,C050,2025-12-14,Mobile App,Returned,Same Day,Net Banking
+O0205,C048,2026-06-16,Website,Delivered,Same Day,Net Banking
+O0206,C011,2026-03-17,Website,Delivered,Same Day,UPI
+O0207,C042,2025-04-16,Store,Delivered,Express,UPI
+O0208,C058,2026-09-10,Website,Shipped,Same Day,Net Banking
+O0209,C045,2026-04-03,Mobile App,Delivered,Same Day,Net Banking
+O0210,C036,2026-10-17,Website,Returned,Standard,Net Banking

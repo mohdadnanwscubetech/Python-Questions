@@ -1,0 +1,82 @@
+﻿customer_id,customer_name,gender,age,city,state,customer_segment,signup_date,preferred_contact
+C001,Customer_001,Female,,Lucknow,Uttar Pradesh,Small Business,2025-09-13,WhatsApp
+C002,Customer_002,Female,43.0,Mumbai,Maharashtra,Small Business,2025-12-31,WhatsApp
+C003,Customer_003,Other,46.0,Ahmedabad,Gujarat,Consumer,2025-03-24,Email
+C004,Customer_004,Female,19.0,Mumbai,Maharashtra,Small Business,2024-03-06,WhatsApp
+C005,Customer_005,Male,18.0,Mumbai,Maharashtra,Consumer,2025-08-25,WhatsApp
+C006,Customer_006,Male,20.0,Jodhpur,Rajasthan,Corporate,2024-08-22,Email
+C007,Customer_007,Female,60.0,Lucknow,Uttar Pradesh,Corporate,2024-08-31,
+C008,Customer_008,Other,54.0,Lucknow,Uttar Pradesh,Small Business,2024-05-15,SMS
+C009,Customer_009,Female,44.0,Mumbai,Maharashtra,Consumer,2026-03-14,Email
+C010,Customer_010,Female,40.0,Jaipur,Rajasthan,Corporate,2025-11-05,SMS
+C011,Customer_011,Male,61.0,Hyderabad,Telangana,Small Business,2026-01-16,WhatsApp
+C012,Customer_012,Female,64.0,Jaipur,Rajasthan,Corporate,2024-03-03,Email
+C013,Customer_013,Male,52.0,Mumbai,Maharashtra,Corporate,2024-07-15,Email
+C014,Customer_014,Female,47.0,Bengaluru,Karnataka,Consumer,2024-07-06,Email
+C015,Customer_015,Other,24.0,Hyderabad,Telangana,Consumer,2026-04-07,WhatsApp
+C016,Customer_016,Male,33.0,Lucknow,Uttar Pradesh,Consumer,2024-01-16,SMS
+C017,Customer_017,Male,43.0,Hyderabad,Telangana,Consumer,2025-05-07,Email
+C018,Customer_018,Female,34.0,Bengaluru,Karnataka,Corporate,2024-01-03,SMS
+C019,Customer_019,Other,53.0,Bengaluru,Karnataka,Small Business,2025-12-14,WhatsApp
+C020,Customer_020,Male,36.0,Hyderabad,Telangana,Consumer,2024-06-07,Email
+C021,Customer_021,Other,21.0,Kolkata,West Bengal,Small Business,2026-01-23,SMS
+C022,Customer_022,Other,48.0,Jodhpur,Rajasthan,Small Business,2024-02-21,WhatsApp
+C023,Customer_023,Other,,Delhi,Delhi,Consumer,2024-02-28,Email
+C024,Customer_024,Other,33.0,Kolkata,West Bengal,Corporate,2024-03-10,Email
+C025,Customer_025,Other,56.0,Kolkata,West Bengal,Consumer,2024-09-09,WhatsApp
+C026,Customer_026,Other,55.0,Jaipur,Rajasthan,Small Business,2025-03-05,WhatsApp
+C027,Customer_027,Male,60.0,Ahmedabad,Gujarat,Small Business,2024-09-24,SMS
+C028,Customer_028,Female,26.0,Mumbai,Maharashtra,Small Business,2024-09-28,WhatsApp
+C029,Customer_029,Female,22.0,Pune,Maharashtra,Consumer,2025-04-13,
+C030,Customer_030,Male,22.0,Kolkata,West Bengal,Small Business,2025-07-30,Email
+C031,Customer_031,Male,,,Uttar Pradesh,Consumer,2024-09-28,Email
+C032,Customer_032,Male,,Ahmedabad,Gujarat,Small Business,2024-10-18,WhatsApp
+C033,Customer_033,Other,51.0,Pune,Maharashtra,Consumer,2025-09-18,WhatsApp
+C034,Customer_034,Other,24.0,Lucknow,Uttar Pradesh,Consumer,2024-11-02,SMS
+C035,Customer_035,Other,53.0,Jaipur,Rajasthan,Consumer,2024-04-19,
+C036,Customer_036,Male,63.0,Pune,Maharashtra,Corporate,2025-09-11,Email
+C037,Customer_037,Female,34.0,Pune,Maharashtra,Consumer,2025-06-01,Email
+C038,Customer_038,Female,20.0,Bengaluru,Karnataka,Consumer,2026-04-29,SMS
+C039,Customer_039,Female,28.0,Delhi,Delhi,Small Business,2025-10-14,SMS
+C040,Customer_040,Female,53.0,Lucknow,Uttar Pradesh,Consumer,2025-12-23,Email
+C041,Customer_041,Male,52.0,Jaipur,Rajasthan,Consumer,2025-12-08,SMS
+C042,Customer_042,Male,45.0,Kolkata,West Bengal,Consumer,2025-07-19,Email
+C043,Customer_043,Male,40.0,Pune,Maharashtra,Consumer,2025-01-08,WhatsApp
+C044,Customer_044,Male,40.0,Mumbai,Maharashtra,Small Business,2025-11-13,SMS
+C045,Customer_045,Male,33.0,Kolkata,West Bengal,Consumer,2026-02-06,Email
+C046,Customer_046,Male,65.0,Bengaluru,Karnataka,Corporate,2024-01-26,SMS
+C047,Customer_047,Male,62.0,Mumbai,Maharashtra,Consumer,2024-09-30,SMS
+C048,Customer_048,Male,30.0,Jodhpur,Rajasthan,Corporate,2025-04-26,SMS
+C049,Customer_049,Male,32.0,Pune,Maharashtra,Consumer,2026-04-20,WhatsApp
+C050,Customer_050,Female,35.0,Mumbai,Maharashtra,Consumer,2025-02-12,SMS
+C051,Customer_051,Other,43.0,Ahmedabad,Gujarat,Small Business,2025-10-18,WhatsApp
+C052,Customer_052,Male,34.0,Ahmedabad,Gujarat,Consumer,2024-01-29,WhatsApp
+C053,Customer_053,Male,56.0,Pune,Maharashtra,Corporate,2024-02-09,SMS
+C054,Customer_054,Other,50.0,Ahmedabad,Gujarat,Consumer,2025-03-22,SMS
+C055,Customer_055,Female,20.0,,West Bengal,Small Business,2024-07-13,SMS
+C056,Customer_056,Other,61.0,Jodhpur,Rajasthan,Small Business,2025-06-16,WhatsApp
+C057,Customer_057,Female,22.0,Mumbai,Maharashtra,Small Business,2025-01-07,SMS
+C058,Customer_058,Other,25.0,Kolkata,West Bengal,Small Business,2024-11-17,SMS
+C059,Customer_059,Other,44.0,Lucknow,Uttar Pradesh,Corporate,2024-11-12,SMS
+C060,Customer_060,Male,30.0,Pune,Maharashtra,Corporate,2025-07-21,WhatsApp
+C061,Customer_061,Other,29.0,Bengaluru,Karnataka,Small Business,2025-11-24,
+C062,Customer_062,Other,18.0,Pune,Maharashtra,Corporate,2025-02-19,SMS
+C063,Customer_063,Other,56.0,Mumbai,Maharashtra,Small Business,2025-03-16,SMS
+C064,Customer_064,Female,61.0,Hyderabad,Telangana,Consumer,2025-03-28,WhatsApp
+C065,Customer_065,Other,28.0,Hyderabad,Telangana,Small Business,2026-03-23,Email
+C066,Customer_066,Other,58.0,Pune,Maharashtra,Small Business,2025-06-11,SMS
+C067,Customer_067,Male,61.0,Jaipur,Rajasthan,Corporate,2026-04-18,Email
+C068,Customer_068,Male,20.0,Mumbai,Maharashtra,Consumer,2024-05-30,SMS
+C069,Customer_069,Male,47.0,Kolkata,West Bengal,Corporate,2026-02-25,WhatsApp
+C070,Customer_070,Other,62.0,Kolkata,West Bengal,Corporate,2024-07-18,SMS
+C071,Customer_071,Male,59.0,Bengaluru,Karnataka,Small Business,2024-09-06,Email
+C072,Customer_072,Female,32.0,Jaipur,Rajasthan,Consumer,2026-03-08,WhatsApp
+C073,Customer_073,Male,53.0,Lucknow,Uttar Pradesh,Consumer,2025-04-20,Email
+C074,Customer_074,Female,60.0,Hyderabad,Telangana,Small Business,2024-05-16,WhatsApp
+C075,Customer_075,Female,57.0,Kolkata,West Bengal,Small Business,2024-11-20,WhatsApp
+C076,Customer_076,Other,46.0,Bengaluru,Karnataka,Consumer,2026-04-30,WhatsApp
+C077,Customer_077,Female,33.0,Hyderabad,Telangana,Small Business,2025-04-05,SMS
+C078,Customer_078,Other,33.0,Lucknow,Uttar Pradesh,Corporate,2025-05-11,SMS
+C079,Customer_079,Female,33.0,Jaipur,Rajasthan,Corporate,2025-12-31,SMS
+C080,Customer_080,Male,26.0,Ahmedabad,Gujarat,Consumer,2025-07-07,Email
+C006,Customer_006,Male,20.0,Jodhpur,Rajasthan,Corporate,2024-08-22,Email

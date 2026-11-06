@@ -1,0 +1,20 @@
+﻿return_id,order_id,return_reason,days_to_return,refund_status
+R001,O0003,Wrong Item,12,Approved
+R002,O0004,Wrong Item,12,Approved
+R003,O0039,Changed Mind,9,Approved
+R004,O0054,Damaged,6,Under Review
+R005,O0069,Damaged,7,Under Review
+R006,O0086,Size Issue,13,Under Review
+R007,O0089,Changed Mind,1,Under Review
+R008,O0097,Damaged,11,Approved
+R009,O0107,Damaged,1,Under Review
+R010,O0120,Damaged,7,Rejected
+R011,O0127,Late Delivery,2,Under Review
+R012,O0155,Size Issue,8,Under Review
+R013,O0162,Wrong Item,4,Under Review
+R014,O0172,Damaged,5,Rejected
+R015,O0183,,11,Under Review
+R016,O0198,Size Issue,10,Under Review
+R017,O0201,Wrong Item,7,Approved
+R018,O0204,Changed Mind,12,Under Review
+R019,O0210,Damaged,5,Approved
