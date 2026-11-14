@@ -1,0 +1,143 @@
+-- E-Commerce Training Database
+-- Tables: employees (50 rows), products (50 rows)
+-- MySQL 8.0+ compatible. Safe to run more than once: primary keys + INSERT IGNORE.
+CREATE DATABASE IF NOT EXISTS e_commerce;
+USE e_commerce;
+
+CREATE TABLE IF NOT EXISTS employees (
+    employee_id INT PRIMARY KEY,
+    first_name VARCHAR(40) NOT NULL,
+    last_name VARCHAR(40) NOT NULL,
+    gender VARCHAR(10),
+    age TINYINT,
+    department VARCHAR(40),
+    job_title VARCHAR(50),
+    salary DECIMAL(10,2),
+    city VARCHAR(40),
+    email VARCHAR(100) NULL,
+    bonus DECIMAL(10,2) NULL,
+    hire_date DATE
+);
+
+CREATE TABLE IF NOT EXISTS products (
+    product_id INT PRIMARY KEY,
+    product_name VARCHAR(100) NOT NULL,
+    category VARCHAR(50),
+    brand VARCHAR(50),
+    price DECIMAL(10,2),
+    stock INT,
+    rating DECIMAL(2,1) NULL,
+    sku VARCHAR(30) NULL
+);
+
+-- Employee sample data (50 records)
+INSERT IGNORE INTO employees (employee_id, first_name, last_name, gender, age, department, job_title, salary, city, email, bonus, hire_date) VALUES
+(1, 'Aarav', 'Singh', 'Male', '30', 'Operations', 'Assistant Manager', '40000', 'Kota', 'aarav.singh1@example.com', '2500', '2020-04-08'),
+(2, 'Vivaan', 'Joshi', 'Female', '24', 'Finance', 'Team Lead', '22000', 'Pune', 'vivaan.joshi2@example.com', '7500', '2021-07-15'),
+(3, 'Aditya', 'Agarwal', 'Male', '32', 'Marketing', 'Senior Executive', '50000', 'Jodhpur', 'aditya.agarwal3@example.com', '2000', '2022-10-22'),
+(4, 'Vihaan', 'Malhotra', 'Female', '25', 'Warehouse', 'Analyst', '28000', 'Udaipur', 'vihaan.malhotra4@example.com', '5000', '2023-01-02'),
+(5, 'Arjun', 'Bansal', 'Male', '35', 'HR', 'Coordinator', '60000', 'Bengaluru', 'arjun.bansal5@example.com', '1500', '2024-04-09'),
+(6, 'Reyansh', 'Das', 'Female', '26', 'Sales', 'Manager', '32000', 'Delhi', 'reyansh.das6@example.com', '4000', '2025-07-16'),
+(7, 'Krishna', 'Verma', 'Male', '38', 'Customer Support', 'Associate', '75000', 'Lucknow', NULL, '0', '2026-10-23'),
+(8, 'Ishaan', 'Mehta', 'Female', '27', 'IT', 'Executive', '38000', 'Ahmedabad', 'ishaan.mehta8@example.com', '3000', '2019-01-03'),
+(9, 'Shaurya', 'Patel', 'Male', '40', 'Operations', 'Assistant Manager', '20000', 'Mumbai', 'shaurya.patel9@example.com', NULL, '2020-04-10'),
+(10, 'Atharv', 'Rathore', 'Female', '28', 'Finance', 'Team Lead', '45000', 'Jaipur', 'atharv.rathore10@example.com', '2500', '2021-07-17'),
+(11, 'Ananya', 'Choudhary', 'Male', '45', 'Marketing', 'Senior Executive', '25000', 'Kota', 'ananya.choudhary11@example.com', '7500', '2022-10-24'),
+(12, 'Diya', 'Mishra', 'Female', '29', 'Warehouse', 'Analyst', '55000', 'Pune', 'diya.mishra12@example.com', '2000', '2023-01-04'),
+(13, 'Aadhya', 'Reddy', 'Male', '22', 'HR', 'Coordinator', '30000', 'Jodhpur', 'aadhya.reddy13@example.com', '5000', '2024-04-11'),
+(14, 'Saanvi', 'Gupta', 'Female', '30', 'Sales', 'Manager', '65000', 'Udaipur', 'saanvi.gupta14@example.com', '1500', '2025-07-18'),
+(15, 'Pari', 'Khan', 'Male', '24', 'Customer Support', 'Associate', '35000', 'Bengaluru', 'pari.khan15@example.com', '4000', '2026-10-25'),
+(16, 'Ira', 'Yadav', 'Female', '32', 'IT', 'Executive', '18000', 'Delhi', 'ira.yadav16@example.com', '0', '2019-01-05'),
+(17, 'Myra', 'Jain', 'Male', '25', 'Operations', 'Assistant Manager', '40000', 'Lucknow', 'myra.jain17@example.com', '3000', '2020-04-12'),
+(18, 'Aarohi', 'Saxena', 'Female', '35', 'Finance', 'Team Lead', '22000', 'Ahmedabad', 'aarohi.saxena18@example.com', NULL, '2021-07-19'),
+(19, 'Kiara', 'Kapoor', 'Male', '26', 'Marketing', 'Senior Executive', '50000', 'Mumbai', NULL, '2500', '2022-10-26'),
+(20, 'Riya', 'Sharma', 'Female', '38', 'Warehouse', 'Analyst', '28000', 'Jaipur', 'riya.sharma20@example.com', '7500', '2023-01-06'),
+(21, 'Kabir', 'Singh', 'Male', '27', 'HR', 'Coordinator', '60000', 'Kota', 'kabir.singh21@example.com', '2000', '2024-04-13'),
+(22, 'Dev', 'Joshi', 'Female', '40', 'Sales', 'Manager', '32000', 'Pune', 'dev.joshi22@example.com', '5000', '2025-07-20'),
+(23, 'Rohan', 'Agarwal', 'Male', '28', 'Customer Support', 'Associate', '75000', 'Jodhpur', 'rohan.agarwal23@example.com', '1500', '2026-10-27'),
+(24, 'Kunal', 'Malhotra', 'Female', '45', 'IT', 'Executive', '38000', 'Udaipur', 'kunal.malhotra24@example.com', '4000', '2019-01-07'),
+(25, 'Manav', 'Bansal', 'Male', '29', 'Operations', 'Assistant Manager', '20000', 'Bengaluru', 'manav.bansal25@example.com', '0', '2020-04-14'),
+(26, 'Neha', 'Das', 'Female', '22', 'Finance', 'Team Lead', '45000', 'Delhi', 'neha.das26@example.com', '3000', '2021-07-21'),
+(27, 'Priya', 'Verma', 'Male', '30', 'Marketing', 'Senior Executive', '25000', 'Lucknow', 'priya.verma27@example.com', NULL, '2022-10-01'),
+(28, 'Sneha', 'Mehta', 'Female', '24', 'Warehouse', 'Analyst', '55000', 'Ahmedabad', 'sneha.mehta28@example.com', '2500', '2023-01-08'),
+(29, 'Pooja', 'Patel', 'Male', '32', 'HR', 'Coordinator', '30000', 'Mumbai', 'pooja.patel29@example.com', '7500', '2024-04-15'),
+(30, 'Meera', 'Rathore', 'Female', '25', 'Sales', 'Manager', '65000', 'Jaipur', 'meera.rathore30@example.com', '2000', '2025-07-22'),
+(31, 'Rahul', 'Choudhary', 'Male', '35', 'Customer Support', 'Associate', '35000', 'Kota', 'rahul.choudhary31@example.com', '5000', '2026-10-02'),
+(32, 'Amit', 'Mishra', 'Female', '26', 'IT', 'Executive', '18000', 'Pune', 'amit.mishra32@example.com', '1500', '2019-01-09'),
+(33, 'Sakshi', 'Reddy', 'Male', '38', 'Operations', 'Assistant Manager', '40000', 'Jodhpur', 'sakshi.reddy33@example.com', '4000', '2020-04-16'),
+(34, 'Nisha', 'Gupta', 'Female', '27', 'Finance', 'Team Lead', '22000', 'Udaipur', NULL, '0', '2021-07-23'),
+(35, 'Tanya', 'Khan', 'Male', '40', 'Marketing', 'Senior Executive', '50000', 'Bengaluru', 'tanya.khan35@example.com', '3000', '2022-10-03'),
+(36, 'Varun', 'Yadav', 'Female', '28', 'Warehouse', 'Analyst', '28000', 'Delhi', 'varun.yadav36@example.com', NULL, '2023-01-10'),
+(37, 'Nikhil', 'Jain', 'Male', '45', 'HR', 'Coordinator', '60000', 'Lucknow', 'nikhil.jain37@example.com', '2500', '2024-04-17'),
+(38, 'Simran', 'Saxena', 'Female', '29', 'Sales', 'Manager', '32000', 'Ahmedabad', 'simran.saxena38@example.com', '7500', '2025-07-24'),
+(39, 'Ishita', 'Kapoor', 'Male', '22', 'Customer Support', 'Associate', '75000', 'Mumbai', 'ishita.kapoor39@example.com', '2000', '2026-10-04'),
+(40, 'Yash', 'Sharma', 'Female', '30', 'IT', 'Executive', '38000', 'Jaipur', 'yash.sharma40@example.com', '5000', '2019-01-11'),
+(41, 'Ankit', 'Singh', 'Male', '24', 'Operations', 'Assistant Manager', '20000', 'Kota', 'ankit.singh41@example.com', '1500', '2020-04-18'),
+(42, 'Kavya', 'Joshi', 'Female', '32', 'Finance', 'Team Lead', '45000', 'Pune', 'kavya.joshi42@example.com', '4000', '2021-07-25'),
+(43, 'Tanvi', 'Agarwal', 'Male', '25', 'Marketing', 'Senior Executive', '25000', 'Jodhpur', 'tanvi.agarwal43@example.com', '0', '2022-10-05'),
+(44, 'Mohit', 'Malhotra', 'Female', '35', 'Warehouse', 'Analyst', '55000', 'Udaipur', 'mohit.malhotra44@example.com', '3000', '2023-01-12'),
+(45, 'Farhan', 'Bansal', 'Male', '26', 'HR', 'Coordinator', '30000', 'Bengaluru', 'farhan.bansal45@example.com', NULL, '2024-04-19'),
+(46, 'Zoya', 'Das', 'Female', '38', 'Sales', 'Manager', '65000', 'Delhi', NULL, '2500', '2025-07-26'),
+(47, 'Imran', 'Verma', 'Male', '27', 'Customer Support', 'Associate', '35000', 'Lucknow', 'imran.verma47@example.com', '7500', '2026-10-06'),
+(48, 'Ayesha', 'Mehta', 'Female', '40', 'IT', 'Executive', '18000', 'Ahmedabad', 'ayesha.mehta48@example.com', '2000', '2019-01-13'),
+(49, 'Ritika', 'Patel', 'Male', '28', 'Operations', 'Assistant Manager', '40000', 'Mumbai', 'ritika.patel49@example.com', '5000', '2020-04-20'),
+(50, 'Sahil', 'Rathore', 'Female', '45', 'Finance', 'Team Lead', '22000', 'Jaipur', 'sahil.rathore50@example.com', '1500', '2021-07-27');
+
+-- Product sample data (50 records)
+INSERT IGNORE INTO products (product_id, product_name, category, brand, price, stock, rating, sku) VALUES
+(1, 'Wireless Mouse', 'Home & Living', 'AeroTech', '799', '40', '3.8', 'SKU-1001'),
+(2, 'Mechanical Keyboard', 'Storage', 'NovaGear', '1999', '18', '4.3', 'SKU-1002'),
+(3, 'USB-C Hub', 'Computer Peripherals', 'BytePro', '4999', '8', '4.7', 'SKU-1003'),
+(4, 'Laptop Stand', 'Mobile Accessories', 'PixelOne', '12999', '100', '3.2', 'SKU-1004'),
+(5, 'Bluetooth Speaker', 'Electronics', 'ClickPlus', '399', '30', '4.1', 'SKU-1005'),
+(6, 'Webcam HD', 'Office Supplies', 'SoundMax', '1199', '15', '4.5', 'SKU-1006'),
+(7, 'Noise Cancelling Headphones', 'Audio', 'CoreLine', '2999', '5', NULL, 'SKU-1007'),
+(8, 'Power Bank', 'Accessories', 'UrbanDesk', '6999', '75', '3.8', 'SKU-1008'),
+(9, 'Smart Watch', 'Home & Living', 'WorkNest', '19999', '25', '4.3', NULL),
+(10, 'Fitness Band', 'Storage', 'TechNova', '599', '12', '4.7', 'SKU-1010'),
+(11, 'Gaming Mouse', 'Computer Peripherals', 'AeroTech', '1799', '2', '3.2', 'SKU-1011'),
+(12, 'Monitor 24 inch', 'Mobile Accessories', 'NovaGear', '3999', '50', '4.1', 'SKU-1012'),
+(13, 'Laptop Backpack', 'Electronics', 'BytePro', '9999', '20', '4.5', 'SKU-1013'),
+(14, 'Portable SSD', 'Office Supplies', 'PixelOne', '299', '10', NULL, 'SKU-1014'),
+(15, 'Wireless Charger', 'Audio', 'ClickPlus', '999', '0', '3.8', 'SKU-1015'),
+(16, 'Phone Case', 'Accessories', 'SoundMax', '2499', '40', '4.3', 'SKU-1016'),
+(17, 'Tempered Glass', 'Home & Living', 'CoreLine', '5999', '18', '4.7', 'SKU-1017'),
+(18, 'USB Flash Drive', 'Storage', 'UrbanDesk', '15999', '8', '3.2', 'SKU-1018'),
+(19, 'HDMI Cable', 'Computer Peripherals', 'WorkNest', '499', '100', '4.1', 'SKU-1019'),
+(20, 'Ethernet Cable', 'Mobile Accessories', 'TechNova', '1499', '30', '4.5', 'SKU-1020'),
+(21, 'Desk Lamp', 'Electronics', 'AeroTech', '3499', '15', NULL, 'SKU-1021'),
+(22, 'Office Chair', 'Office Supplies', 'NovaGear', '7999', '5', '3.8', 'SKU-1022'),
+(23, 'Notebook Set', 'Audio', 'BytePro', '199', '75', '4.3', 'SKU-1023'),
+(24, 'Ball Pen Pack', 'Accessories', 'PixelOne', '799', '25', '4.7', 'SKU-1024'),
+(25, 'Water Bottle', 'Home & Living', 'ClickPlus', '1999', '12', '3.2', 'SKU-1025'),
+(26, 'Coffee Mug', 'Storage', 'SoundMax', '4999', '2', '4.1', 'SKU-1026'),
+(27, 'Travel Adapter', 'Computer Peripherals', 'CoreLine', '12999', '50', '4.5', NULL),
+(28, 'Ring Light', 'Mobile Accessories', 'UrbanDesk', '399', '20', NULL, 'SKU-1028'),
+(29, 'Microphone USB', 'Electronics', 'WorkNest', '1199', '10', '3.8', 'SKU-1029'),
+(30, 'Tablet Stand', 'Office Supplies', 'TechNova', '2999', '0', '4.3', 'SKU-1030'),
+(31, 'Smartphone Tripod', 'Audio', 'AeroTech', '6999', '40', '4.7', 'SKU-1031'),
+(32, 'Printer Ink', 'Accessories', 'NovaGear', '19999', '18', '3.2', 'SKU-1032'),
+(33, 'Router Dual Band', 'Home & Living', 'BytePro', '599', '8', '4.1', 'SKU-1033'),
+(34, 'External Hard Drive', 'Storage', 'PixelOne', '1799', '100', '4.5', 'SKU-1034'),
+(35, 'Cooling Pad', 'Computer Peripherals', 'ClickPlus', '3999', '30', NULL, 'SKU-1035'),
+(36, 'Keyboard Cover', 'Mobile Accessories', 'SoundMax', '9999', '15', '3.8', 'SKU-1036'),
+(37, 'Screen Cleaner', 'Electronics', 'CoreLine', '299', '5', '4.3', 'SKU-1037'),
+(38, 'Drawing Tablet', 'Office Supplies', 'UrbanDesk', '999', '75', '4.7', 'SKU-1038'),
+(39, 'Action Camera', 'Audio', 'WorkNest', '2499', '25', '3.2', 'SKU-1039'),
+(40, 'LED Strip Light', 'Accessories', 'TechNova', '5999', '12', '4.1', 'SKU-1040'),
+(41, 'Bluetooth Earbuds', 'Home & Living', 'AeroTech', '15999', '2', '4.5', 'SKU-1041'),
+(42, 'Car Charger', 'Storage', 'NovaGear', '499', '50', NULL, 'SKU-1042'),
+(43, 'Laptop Sleeve', 'Computer Peripherals', 'BytePro', '1499', '20', '3.8', NULL),
+(44, 'Extension Board', 'Mobile Accessories', 'PixelOne', '3499', '10', '4.3', 'SKU-1044'),
+(45, 'Surge Protector', 'Electronics', 'ClickPlus', '7999', '0', '4.7', 'SKU-1045'),
+(46, 'Graphic Tablet Pen', 'Office Supplies', 'SoundMax', '199', '40', '3.2', 'SKU-1046'),
+(47, 'Desk Organizer', 'Audio', 'CoreLine', '799', '18', '4.1', 'SKU-1047'),
+(48, 'Portable Fan', 'Accessories', 'UrbanDesk', '1999', '8', '4.5', 'SKU-1048'),
+(49, 'Smart Plug', 'Home & Living', 'WorkNest', '4999', '100', NULL, 'SKU-1049'),
+(50, 'Security Camera', 'Storage', 'TechNova', '12999', '30', '3.8', 'SKU-1050');
+
+-- Quick verification
+SELECT COUNT(*) AS total_employees FROM employees;
+SELECT COUNT(*) AS total_products FROM products;
+SELECT * FROM employees LIMIT 5;
+SELECT * FROM products LIMIT 5;
